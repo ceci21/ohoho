@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ohoho</title>
+</head>
+<body>
+  <code>
+    function sayOho() {
+      var string = 'O';
+      var i = 1;
+      return function() {
+          for (var k = 0; k < i; k++) {
+              string = string + "HO";
+          }
+          i = Math.pow(2, i);
+          console.log(string);
+      }
+    }
+  </code>
+</body>
+</html>
